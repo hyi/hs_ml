@@ -2,7 +2,6 @@ import pandas as pd
 
 
 data_files = ['data/hs_data_published.csv',
-              'data/hs_data_public.csv',
               'data/hs_data.csv']
 
 for f in data_files:
