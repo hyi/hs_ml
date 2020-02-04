@@ -2,7 +2,8 @@ import pandas as pd
 
 
 data_files = ['data/hs_data_published.csv',
-              'data/hs_data.csv']
+              'data/hs_data.csv',
+              'data/hs_data_public.csv']
 
 for f in data_files:
     data = pd.read_csv(f, index_col ="UUID")
